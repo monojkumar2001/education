@@ -1,0 +1,135 @@
+.course-details{
+    padding: 150px 0 150px 0;
+}
+.course-details-title{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.course-details-img img{
+    width: 100%;
+}
+.course-details-title h1{
+    font-size: 50px;
+    font-family: var(--primary-font);
+    font-weight: 900;
+}
+.course-details-title p{
+    margin-top: 10px;
+}
+.course-learn-content{
+    margin-top: 80px;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    padding: 40px;
+}
+.course-learn-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.course-description-content{
+    margin-top: 80px;
+    border: 3px solid #FFFFFF;
+border-radius: 20px;
+padding: 40px;
+}
+.course-description-content .course-details-title{
+    margin-bottom: 20px;
+}
+.course-description-content p{
+    text-align: left;
+    margin-top: 30px;
+}
+.course-submit-email{
+    margin-top: 80px;
+    background: #0E163D;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 50px 80px 60px 80px;
+}
+.course-input-email{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 15px;
+}
+.course-input-item{
+    width: 100%;
+    margin: auto;
+}
+.course-input-item input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 15px;
+}
+.course-buy-now-btn{
+    width: 250px;
+    background: linear-gradient(90deg, #D4088C 0%, #00FFFF 100%);
+    padding: 10px 15px;
+    color: var(--black-color);
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+}
+
+/* course details responsive */
+
+@media screen and (max-width: 768px) {
+    .course-details {
+        padding: 100px 0 100px 0;
+    }
+    .course-details-title h1 {
+        font-size: 40px;
+    }
+    .course-learn-content {
+        border-radius: 15px;
+        padding: 40px 25px;
+    }
+    .course-description-content {
+        border-radius: 15px;
+        padding: 40px 25px;
+    }
+    .course-submit-email {
+        padding: 50px;
+    }
+    .course-input-email {
+        width: 100%;
+    }
+  }
+
+@media screen and (max-width: 550px) {
+    .course-details-title h1 {
+        font-size: 30px;
+    }
+    .course-learn-content {
+        margin-top: 60px;
+    }
+    .course-description-content {
+        margin-top: 60px;
+        padding: 30px 15px;
+    }
+    .course-learn-content {
+        border-radius: 10px;
+        padding: 30px 15px;
+    }
+    .course-submit-email {
+        margin-top: 60px;
+    }
+    .course-input-email {
+        flex-direction: column;
+
+    }
+    .course-submit-email {
+        padding: 30px;
+        border-radius: 15px;
+    }
+    .course-submit-email  a{
+        width: 100%;
+    }
+    .course-buy-now-btn{
+        width: 100%;
+    }
+   
+  }

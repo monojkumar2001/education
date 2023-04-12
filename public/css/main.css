@@ -1,0 +1,442 @@
+/*  ============== Pc and Mobile ============== */
+.mobile-home {
+  display: none;
+}
+/* {=============== Hero Section Start =====================} */
+.intro {
+  transition: 0.4s;
+  position: relative;
+}
+.section-bg-img {
+  top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discription {
+  opacity: 0;
+  transition: 1s;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  transform: translateY(80px);
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+}
+.section-bg-img img {
+  z-index: -1;
+  width: 95%;
+  height: 800px;
+}
+.hero-left {
+  width: 60%;
+  position: absolute;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  top: 25%;
+  left: 20%;
+  text-align: center;
+}
+.join-btn {
+  opacity: 0;
+  transition: 1.2s;
+  transform: translateY(80px);
+}
+.join-btn-text {
+  position: absolute;
+}
+.join-btn-text span {
+  font-size: 18px;
+  color: var(--black-color);
+  font-family: var(--secondary-font);
+  font-weight: 900;
+}
+.intro .join-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.intro .join-btn .play-show-btn {
+  background: #171649;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: var(--white-color);
+  padding: 20px 40px;
+  font-weight: 900;
+}
+.join-btn a {
+  position: relative;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 20px;
+}
+.join-btn a:hover {
+  transform: scale(1.05);
+}
+.join-btn img {
+  width: 200px;
+}
+.hero-imgs {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.hero-imgs:hover {
+  transform: scale(1.05);
+}
+.hero-img-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.hero-img-2 img {
+  width: 120%;
+}
+.hero-img-3 {
+  position: absolute;
+  right: 5%;
+  bottom: -3%;
+}
+.hero-img-3 img {
+  width: 120%;
+}
+
+/* {=============== Hero Section End =====================} */
+/* {================== Course start =================} */
+
+.courses-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  top: 21%;
+  left: 10%;
+}
+.courses-con {
+  margin-top: 100px;
+  display: grid;
+  gap: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 70%;
+}
+.course-item {
+  position: relative;
+  background: #0e103b;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 100%;
+  transition: 0.4s;
+  padding: 100px 0 50px 0;
+}
+.course-item:hover {
+  background: linear-gradient(180deg, #841ca1 0%, rgba(14, 16, 59, 0) 100%);
+  border: 3px solid rgba(255, 255, 255, 0.2);
+}
+.course-item-img {
+  width: 78%;
+  position: absolute;
+  top: -50px;
+}
+.section-item-slider {
+  cursor: pointer;
+  opacity: 0;
+  transition: 1.5s;
+  transform: translateY(400px);
+}
+
+.course-item .course-content {
+  padding: 0 25px;
+}
+.course-item .course-content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.course-item .course-content h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.course-item-img img {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.course-header-content {
+  position: absolute;
+}
+
+/* {=================== virtual-office start ==================} */
+.customer-office {
+  padding: 150px 0 100px 0;
+}
+.customer-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  top: 170px;
+  left: 10%;
+}
+.customer-items {
+  padding-top: 85px;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+.customer-items .customer-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 60px 20px 30px 20px;
+  background: #0e103b;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+.customer-items .customer-item:hover {
+  opacity: 1;
+  background: linear-gradient(180deg, #841ca1 0%, rgba(14, 16, 59, 0) 100%);
+}
+.customer-profile {
+  position: absolute;
+  top: -60px;
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+}
+.customer-profile img {
+  width: 100%;
+  border-radius: 50px;
+  border: 3px solid #ffffff;
+}
+.customer-img-side {
+  position: absolute;
+  top: -22px;
+  left: 12px;
+}
+.customer-img-side img {
+  width: 100%;
+}
+.c .customer-content {
+  text-align: center;
+}
+.customer-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.customer-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.customer-content p {
+  margin-top: 15px;
+}
+.customer-review {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+/* {=================== virtual-office end ==================} */
+/* {================= Remote Job Start ====================} */
+.about {
+  position: relative;
+}
+.about-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  top: 200px;
+  left: 10%;
+}
+.about-wrapper .discription {
+  padding-top: 20px;
+}
+.about-img-1 {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+.about-img-1 img {
+  width: 300px;
+}
+.about-img-2 {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+}
+.about-img-2 img {
+  width: 400px;
+}
+
+/* {================= Remote Job end ====================} */
+/* {=================== Community start =========================} */
+.cummunity {
+  background-repeat: no-repeat;
+}
+.community-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.community-title h1 span {
+  background: linear-gradient(90deg, #6affb0 0%, #00ddff 52.43%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.community-items {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.community-items .community-item {
+  cursor: pointer;
+  opacity: 0;
+  transition: 1s;
+  transform: scale(0.5);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.community-content {
+  overflow-y: auto;
+  height: 250px;
+  position: absolute;
+  width: 79%;
+  top: 35px;
+  left: 19px;
+  /* overflow: hidden; */
+}
+.community-content h3 {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: var(--primary-font);
+  color: #fff;
+  margin-bottom: 11px;
+}
+.community-content p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 25px;
+}
+.community-items .community-item .community-item-img .com-2 {
+  display: none;
+}
+.community-items .community-item:hover .community-item-img .com-2 {
+  display: block;
+}
+.community-items .community-item:hover .community-item-img .com-1 {
+  display: none;
+}
+
+.community-item-img img {
+  width: 100%;
+}
+
+/* {=================== Community end =========================} */
+
+/* ===================== Order Compelete Start ============ */
+.order-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  text-align: center;
+}
+.back-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+.order-complete-img img {
+  width: 100%;
+}
+.oder-title h1 {
+  font-size: 50px;
+  font-family: var(--primary-font);
+  font-weight: 900;
+}
+.oder-title p {
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+}
+.social-area h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--primary-font);
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 550px) {
+  .oder-title h1 {
+    font-size: 30px;
+  }
+  .back-wrapper {
+    top: 15%;
+    left: 0;
+  }
+  .order-complete-img img {
+    width: 80%;
+  }
+}
+/* ===================== Order Compelete End ============ */
