@@ -10,7 +10,7 @@ function Home() {
   const pagination = {
     clickable: true,
     renderBullet: (index, className) => {
-      const texts = ["Home", "Course", "Customer", "About", "Community"];
+      const texts = ["Home", "Course", "Master Class", "About", "Testimonial"];
       return `<span class="${className}">${texts[index]}</span>`;
     },
   };
@@ -144,7 +144,291 @@ function Home() {
             </section>
             {/* ================== Courses End ========================== */}
           </SwiperSlide>
+          <SwiperSlide>
+            {/* ================== Courses End ========================== */}
 
+            <section className="courses section-padding ">
+              <div className="section-bg-img">
+                <img src="./images/hero-img.png" alt="" />
+              </div>
+              <div className="page-bg-2 page-bg"></div>
+              <div className="courses-wrapper course-2">
+                <div className="course-title">
+                  <h1 className="section-title">COURSES</h1>
+                  <p className="discription">
+                    From buying, selling, and trading to creating and minting
+                    your own collections, we offer
+                  </p>
+                </div>
+                <div className="courses-con">
+                  <div className="course-item section-item-slider section-item-slider-item-1">
+                    <div className="course-item-img">
+                      <img src="./images/course-bg-img-1.svg" alt="" />
+                    </div>
+                    <div className="course-content">
+                      <h4>The Road To Web3</h4>
+                      <p>lorem and trading to creating and minting
+                    your own collections, we offer</p>
+                      <Link to="/course-details">
+                        <button className="custom-btn">Get Started</button>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="course-item section-item-slider section-item-slider-item-2">
+                    <div className="course-item-img">
+                      <img src="./images/course-bg-img-2.svg" alt="" />
+                    </div>
+                    <div className="course-content">
+                      <h4>The Road To Web3</h4>
+                      <p>lorem and trading to creating and minting
+                    your own collections, we offer</p>
+                      <Link to="/course-details">
+                        <button className="custom-btn">Get Started</button>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="course-item section-item-slider section-item-slider-item-3">
+                    <div className="course-item-img">
+                      <img src="./images/course-bg-img-3.svg" alt="" />
+                    </div>
+                    <div className="course-content">
+                      <h4>The Road To Web3</h4>
+                      <p>lorem and trading to creating and minting
+                    your own collections, we offer</p>
+                      <Link to="/course-details">
+                        <button className="custom-btn">Get Started</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         
+              <div className="about-img-1">
+                <img src="./images/about-img-1.svg" alt="" />
+              </div>
+              <div className="about-img-2">
+                <img src="./images/about-img-2.svg" alt="" />
+              </div>
+            </section>
+            {/* ================== Courses End ========================== */}
+          </SwiperSlide>
+
+    
+          <SwiperSlide>
+            {/* ================= About Start ==================== */}
+            <section className="about section-padding">
+              <div className="section-bg-img">
+                <img src="./images/hero-img.png" alt="" />
+              </div>
+              <div className="page-bg-4 page-bg"></div>
+              <div className="about-wrapper">
+                <h1 className="section-title">ABOUT KRYPTONERDS</h1>
+                <p className="discription">
+                  Welcome to Kryptonerds, your one stop solution for all things
+                  NFT. We are a dedicated NFT education platform that aims to
+                  teach people how to buy, sell, mint, trade and create their
+                  own NFT collection. Our mission is to empower individuals with
+                  the knowledge and skills they need to succeed in the rapidly
+                  growing world of NFTs. Our team of industry experts and NFT
+                  influencers provide live classes and masterclasses that are
+                  designed to educate and inspire. We cover everything from the
+                  basics of NFTs and technology to advanced trading strategies
+                  and market analysis. Whether you're a beginner or an
+                  experienced trader, our classes will help you take your NFT
+                  game to the next level. Our live classes are held by industry
+                  experts who have years of experience in the NFT space. They
+                  provide valuable insights and hands-on training that will help
+                  you understand the ins and outs of NFTs. From buying and
+                  selling NFTs on the open market to creating your own NFT
+                  collection, our experts will guide you every step of the way.
+                  In addition to our live classes, we also offer masterclasses
+                  by NFT influencers. These classes are designed to provide an
+                  in-depth look at the world of NFTs from the perspective of
+                  some of the most successful and influential players in the
+                  space. You'll learn from the best and gain valuable insights
+                  into the latest trends and strategies that are driving the NFT
+                  market. At Kryptonerds, we believe in the power of education
+                  to change lives. We're passionate about helping people achieve
+                  their goals and realize their dreams in the NFT space. Whether
+                  you're looking to make a profit or simply want to create your
+                  own unique NFT collection, we're here to help you succeed. 
+                </p>
+              </div>
+
+              <div className="about-img-1">
+                <img src="./images/about-img-1.svg" alt="" />
+              </div>
+              <div className="about-img-2">
+                <img src="./images/about-img-2.svg" alt="" />
+              </div>
+            </section>
+            {/* ================= About end ==================== */}
+          </SwiperSlide>
+          {/* <SwiperSlide>
+            <section className="cummunity section-padding">
+              <div className="section-bg-img">
+                <img src="./images/hero-img.png" alt="" />
+              </div>
+              <div className="page-bg-5 page-bg"></div>
+              <div className="container">
+                <div className="community-wrapper">
+                  <div className="community-title">
+                    <h1 className="section-title">COMMUNITY</h1>
+                  </div>
+                  <div className="community-items">
+                    <div className="community-item cummunity-item-1">
+                      <div className="community-item-img">
+                        <img
+                          src="./images/community-item-1.png"
+                          alt=""
+                          className="com-1"
+                        />
+                        <img
+                          src="./images/community-item-hover-1.png"
+                          alt=""
+                          className="com-2"
+                        />
+                      </div>
+                      <div className="community-content">
+                        <h3>community</h3>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum hs been the
+                          industry's standard dummy text ever since the 1500s,
+                          whe
+                        </p>
+                      </div>
+                    </div>
+                    <div className="community-item cummunity-item-2">
+                      <div className="community-item-img">
+                        <img
+                          src="./images/community-item-1.png"
+                          alt=""
+                          className="com-1"
+                        />
+                        <img
+                          src="./images/community-item-hover-1.png"
+                          alt=""
+                          className="com-2"
+                        />
+                      </div>
+                      <div className="community-content">
+                        <h3>Events</h3>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took{" "}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="community-item cummunity-item-3">
+                      <div className="community-item-img">
+                        <img
+                          src="./images/community-item-1.png"
+                          alt=""
+                          className="com-1"
+                        />
+                        <img
+                          src="./images/community-item-hover-1.png"
+                          alt=""
+                          className="com-2"
+                        />
+                      </div>
+                      <div className="community-content">
+                        <h3>Learn</h3>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took{" "}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="community-item cummunity-item-4">
+                      <div className="community-item-img">
+                        <img
+                          src="./images/community-item-1.png"
+                          alt=""
+                          className="com-1"
+                        />
+                        <img
+                          src="./images/community-item-hover-1.png"
+                          alt=""
+                          className="com-2"
+                        />
+                      </div>
+                      <div className="community-content">
+                        <h3>Grow</h3>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took{" "}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="footer-warrper">
+                    <div className="footer-con">
+                      <div className="socials">
+                        <div className="social-list">
+                          <a
+                            href="https://twitter.com/pentonium_ptm"
+                            target="_blank"
+                          >
+                            <img src="./images/social-bg.png" alt="" />
+                            <div className="social-content">
+                              <img src="./images/twitter.png" alt="" />
+                              <p>Twitter</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="social-list">
+                          <a href="" target="_blank">
+                            <img src="./images/social-bg.png" alt="" />
+                            <div className="social-content">
+                              <img src="./images/discord.png" alt="" />
+                              <p>Discord</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="social-list">
+                          <a href="https://t.me/pentonium" target="_blank">
+                            <img src="./images/social-bg.png" alt="" />
+                            <div className="social-content">
+                              <img src="./images/telegram.png" alt="" />
+                              <p>Telegram</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div className="social-list">
+                          <a
+                            href="https://pentonium.medium.com/"
+                            target="_blank"
+                          >
+                            <img src="./images/social-bg.png" alt="" />
+                            <div className="social-content">
+                              <img src="./images/mediums.png" alt="" />
+                              <p>Medium</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div className="copyright">
+                        <p>
+                          © 2023 nft constructer All Rights Reserved. All names,
+                          logos, images,and brands are property of their
+                          respective owners. Non-Affiliation and Disclaimer
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </SwiperSlide> */}
+      
           <SwiperSlide>
             {/* =================== Customer start ================== */}
             <section className="customer-office cpb-6 section-padding">
@@ -406,166 +690,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </section>
-            {/* =================== Customer end ================== */}
-          </SwiperSlide>
-          <SwiperSlide>
-            {/* ================= About Start ==================== */}
-            <section className="about section-padding">
-              <div className="section-bg-img">
-                <img src="./images/hero-img.png" alt="" />
-              </div>
-              <div className="page-bg-4 page-bg"></div>
-              <div className="about-wrapper">
-                <h1 className="section-title">ABOUT KRYPTONERDS</h1>
-                <p className="discription">
-                  Welcome to Kryptonerds, your one stop solution for all things
-                  NFT. We are a dedicated NFT education platform that aims to
-                  teach people how to buy, sell, mint, trade and create their
-                  own NFT collection. Our mission is to empower individuals with
-                  the knowledge and skills they need to succeed in the rapidly
-                  growing world of NFTs. Our team of industry experts and NFT
-                  influencers provide live classes and masterclasses that are
-                  designed to educate and inspire. We cover everything from the
-                  basics of NFTs and technology to advanced trading strategies
-                  and market analysis. Whether you're a beginner or an
-                  experienced trader, our classes will help you take your NFT
-                  game to the next level. Our live classes are held by industry
-                  experts who have years of experience in the NFT space. They
-                  provide valuable insights and hands-on training that will help
-                  you understand the ins and outs of NFTs. From buying and
-                  selling NFTs on the open market to creating your own NFT
-                  collection, our experts will guide you every step of the way.
-                  In addition to our live classes, we also offer masterclasses
-                  by NFT influencers. These classes are designed to provide an
-                  in-depth look at the world of NFTs from the perspective of
-                  some of the most successful and influential players in the
-                  space. You'll learn from the best and gain valuable insights
-                  into the latest trends and strategies that are driving the NFT
-                  market. At Kryptonerds, we believe in the power of education
-                  to change lives. We're passionate about helping people achieve
-                  their goals and realize their dreams in the NFT space. Whether
-                  you're looking to make a profit or simply want to create your
-                  own unique NFT collection, we're here to help you succeed. 
-                </p>
-              </div>
-
-              <div className="about-img-1">
-                <img src="./images/about-img-1.svg" alt="" />
-              </div>
-              <div className="about-img-2">
-                <img src="./images/about-img-2.svg" alt="" />
-              </div>
-            </section>
-            {/* ================= About end ==================== */}
-          </SwiperSlide>
-          <SwiperSlide>
-            {/* =================== Community start ========================= */}
-            <section className="cummunity section-padding">
-              <div className="section-bg-img">
-                <img src="./images/hero-img.png" alt="" />
-              </div>
-              <div className="page-bg-5 page-bg"></div>
-              <div className="container">
-                <div className="community-wrapper">
-                  <div className="community-title">
-                    <h1 className="section-title">COMMUNITY</h1>
-                  </div>
-                  <div className="community-items">
-                    <div className="community-item cummunity-item-1">
-                      <div className="community-item-img">
-                        <img
-                          src="./images/community-item-1.png"
-                          alt=""
-                          className="com-1"
-                        />
-                        <img
-                          src="./images/community-item-hover-1.png"
-                          alt=""
-                          className="com-2"
-                        />
-                      </div>
-                      <div className="community-content">
-                        <h3>community</h3>
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum hs been the
-                          industry's standard dummy text ever since the 1500s,
-                          whe
-                        </p>
-                      </div>
-                    </div>
-                    <div className="community-item cummunity-item-2">
-                      <div className="community-item-img">
-                        <img
-                          src="./images/community-item-1.png"
-                          alt=""
-                          className="com-1"
-                        />
-                        <img
-                          src="./images/community-item-hover-1.png"
-                          alt=""
-                          className="com-2"
-                        />
-                      </div>
-                      <div className="community-content">
-                        <h3>Events</h3>
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="community-item cummunity-item-3">
-                      <div className="community-item-img">
-                        <img
-                          src="./images/community-item-1.png"
-                          alt=""
-                          className="com-1"
-                        />
-                        <img
-                          src="./images/community-item-hover-1.png"
-                          alt=""
-                          className="com-2"
-                        />
-                      </div>
-                      <div className="community-content">
-                        <h3>Learn</h3>
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="community-item cummunity-item-4">
-                      <div className="community-item-img">
-                        <img
-                          src="./images/community-item-1.png"
-                          alt=""
-                          className="com-1"
-                        />
-                        <img
-                          src="./images/community-item-hover-1.png"
-                          alt=""
-                          className="com-2"
-                        />
-                      </div>
-                      <div className="community-content">
-                        <h3>Grow</h3>
-                        <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="footer-warrper">
+              <div className="footer-warrper">
                     <div className="footer-con">
                       <div className="socials">
                         <div className="social-list">
@@ -620,10 +745,8 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
             </section>
-            {/* =================== Community end ========================= */}
+            {/* =================== Customer end ================== */}
           </SwiperSlide>
         </Swiper>
       </section>
@@ -749,8 +872,60 @@ function Home() {
         </section>
         {/* ================ Mobile Course End ================== */}
 
-        {/* ============= Mobile Customer Start ==================== */}
+     
+
+        {/* ============= Mobile About Start ================= */}
         <div
+          className="mobile-about"
+          id="about"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className="container">
+            <div className="mobile-about-wrapper">
+              <h1
+                className="mobile-section-title"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                ABOUT KRYPTONERDS
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                Welcome to Kryptonerds, your one stop solution for all things
+                NFT. We are a dedicated NFT education platform that aims to
+                teach people how to buy, sell, mint, trade and create their own
+                NFT collection. Our mission is to empower individuals with the
+                knowledge and skills they need to succeed in the rapidly growing
+                world of NFTs. Our team of industry experts and NFT influencers
+                provide live classes and masterclasses that are designed to
+                educate and inspire. We cover everything from the basics of NFTs
+                and technology to advanced trading strategies and market
+                analysis. Whether you're a beginner or an experienced trader,
+                our classes will help you take your NFT game to the next level.
+                Our live classes are held by industry experts who have years of
+                experience in the NFT space. They provide valuable insights and
+                hands-on training that will help you understand the ins and outs
+                of NFTs. From buying and selling NFTs on the open market to
+                creating your own NFT collection, our experts will guide you
+                every step of the way. In addition to our live classes, we also
+                offer masterclasses by NFT influencers. These classes are
+                designed to provide an in-depth look at the world of NFTs from
+                the perspective of some of the most successful and influential
+                players in the space. You'll learn from the best and gain
+                valuable insights into the latest trends and strategies that are
+                driving the NFT market. At Kryptonerds, we believe in the power
+                of education to change lives. We're passionate about helping
+                people achieve their goals and realize their dreams in the NFT
+                space. Whether you're looking to make a profit or simply want to
+                create your own unique NFT collection, we're here to help you
+                succeed. 
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* ============= Mobile About End ================= */}
+           {/* ============= Mobile Customer Start ==================== */}
+           <div
           className="mobile-customer"
           id="customer"
           data-aos="fade-up"
@@ -1031,57 +1206,6 @@ function Home() {
         </div>
         {/* ============= Mobile Customer End ==================== */}
 
-        {/* ============= Mobile About Start ================= */}
-        <div
-          className="mobile-about"
-          id="about"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <div className="container">
-            <div className="mobile-about-wrapper">
-              <h1
-                className="mobile-section-title"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                ABOUT KRYPTONERDS
-              </h1>
-              <p data-aos="fade-up" data-aos-duration="1000">
-                Welcome to Kryptonerds, your one stop solution for all things
-                NFT. We are a dedicated NFT education platform that aims to
-                teach people how to buy, sell, mint, trade and create their own
-                NFT collection. Our mission is to empower individuals with the
-                knowledge and skills they need to succeed in the rapidly growing
-                world of NFTs. Our team of industry experts and NFT influencers
-                provide live classes and masterclasses that are designed to
-                educate and inspire. We cover everything from the basics of NFTs
-                and technology to advanced trading strategies and market
-                analysis. Whether you're a beginner or an experienced trader,
-                our classes will help you take your NFT game to the next level.
-                Our live classes are held by industry experts who have years of
-                experience in the NFT space. They provide valuable insights and
-                hands-on training that will help you understand the ins and outs
-                of NFTs. From buying and selling NFTs on the open market to
-                creating your own NFT collection, our experts will guide you
-                every step of the way. In addition to our live classes, we also
-                offer masterclasses by NFT influencers. These classes are
-                designed to provide an in-depth look at the world of NFTs from
-                the perspective of some of the most successful and influential
-                players in the space. You'll learn from the best and gain
-                valuable insights into the latest trends and strategies that are
-                driving the NFT market. At Kryptonerds, we believe in the power
-                of education to change lives. We're passionate about helping
-                people achieve their goals and realize their dreams in the NFT
-                space. Whether you're looking to make a profit or simply want to
-                create your own unique NFT collection, we're here to help you
-                succeed. 
-              </p>
-            </div>
-          </div>
-        </div>
-        {/* ============= Mobile About End ================= */}
-
         {/* ==================== Mobile Community Start ============ */}
         <div
           className="mobile-community"
@@ -1090,7 +1214,7 @@ function Home() {
           data-aos-duration="1000"
         >
           <div className="container">
-            <div className="mobile-community-wrapper">
+            {/* <div className="mobile-community-wrapper">
               <h1
                 className="mobile-section-title"
                 data-aos="fade-up"
@@ -1152,7 +1276,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="mobile-footer-warrper">
               <div className="mobile-footer-con">
