@@ -85,8 +85,6 @@ html {
 
 body {
   background: radial-gradient(50% 50% at 50% 50%, #0F0F44 0%, #0E163D 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #ffffff;
     width: 100%;
     font-size: 16px !important;

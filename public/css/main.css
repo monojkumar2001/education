@@ -1,11 +1,28 @@
 /*  ============== Pc and Mobile ============== */
-.mobile-home {
-  display: none;
-}
 /* {=============== Hero Section Start =====================} */
 .intro {
-  transition: 0.4s;
+  padding: 250px 0 200px;
+  background-image: url(../images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   position: relative;
+}
+.hero-img-1 {
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.hero-img-1 img{
+  width: 100%;
+}
+.hero-img-2 {
+position: absolute;
+bottom: 0;
+right: 0;
+}
+.hero-img-2 img{
+  width: 100%;
 }
 .section-bg-img {
   top: 5px;
@@ -31,20 +48,12 @@
   height: 800px;
 }
 .hero-left {
-  width: 60%;
-  position: absolute;
-  text-align: left;
+  width: 70%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  top: 25%;
-  left: 20%;
+  margin: auto;
   text-align: center;
-}
-.join-btn {
-  opacity: 0;
-  transition: 1.2s;
-  transform: translateY(80px);
 }
 .join-btn-text {
   position: absolute;
@@ -92,45 +101,27 @@
 .hero-imgs:hover {
   transform: scale(1.05);
 }
-.hero-img-2 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-.hero-img-2 img {
-  width: 120%;
-}
-.hero-img-3 {
-  position: absolute;
-  right: 5%;
-  bottom: -3%;
-}
-.hero-img-3 img {
-  width: 120%;
-}
-
 /* {=============== Hero Section End =====================} */
 /* {================== Course start =================} */
 
 .courses-wrapper {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
-  position: absolute;
   flex-direction: column;
-  top: 21%;
-  left: 10%;
+}
+.course-title{
+  text-align: center;
 }
 .courses-con {
   margin-top: 100px;
   display: grid;
-  gap: 80px;
+  gap: 40px;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  width: 70%;
 }
 .course-item {
   position: relative;
@@ -143,14 +134,17 @@
   border-radius: 10px;
   width: 100%;
   transition: 0.4s;
-  padding: 100px 0 50px 0;
+  padding: 150px 0 50px 0;
+  cursor: pointer;
+  /* text-align: center; */
 }
 .course-item:hover {
   background: linear-gradient(180deg, #841ca1 0%, rgba(14, 16, 59, 0) 100%);
   border: 3px solid rgba(255, 255, 255, 0.2);
 }
 .course-item-img {
-  width: 78%;
+  width: 300px;
+  height: 300px;
   position: absolute;
   top: -50px;
 }
@@ -162,11 +156,10 @@
 }
 
 .course-item .course-content {
-  padding: 0 25px;
+  padding: 0 50px;
 }
 .course-item .course-content p {
-  font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   line-height: 20px;
 }
 .course-item .course-content h4 {
@@ -190,24 +183,20 @@
   padding: 150px 0 100px 0;
 }
 .customer-wrapper {
-  width: 80%;
-  margin: auto;
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
-  position: absolute;
   flex-direction: column;
-  top: 170px;
-  left: 10%;
+}
+.customer-title{
+  text-align: center;
 }
 .customer-items {
-  padding-top: 74px;
-  width: 80%;
-  margin: auto;
+  padding-top: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
+  gap: 40px;
   align-items: center;
 }
 .customer-items .customer-item {
@@ -221,15 +210,15 @@
   background: #0e103b;
   border: 5px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
 }
 .customer-items .customer-item:hover {
-  opacity: 1;
   background: linear-gradient(180deg, #841ca1 0%, rgba(14, 16, 59, 0) 100%);
 }
 .customer-profile {
   position: absolute;
   top: -60px;
-  opacity: 1;
   width: 100px;
   height: 100px;
 }
@@ -272,21 +261,17 @@
 /* {=================== virtual-office end ==================} */
 /* {================= Remote Job Start ====================} */
 .about {
-  position: relative;
+  /* position: relative; */
 }
 .about-wrapper {
-  width: 80%;
-  margin: auto;
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
-  position: absolute;
   flex-direction: column;
-  top: 200px;
-  left: 10%;
+
 }
-.about-wrapper .discription {
+.about-wrapper p {
   padding-top: 20px;
 }
 .about-img-1 {
@@ -307,80 +292,6 @@
 }
 
 /* {================= Remote Job end ====================} */
-/* {=================== Community start =========================} */
-.cummunity {
-  background-repeat: no-repeat;
-}
-.community-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: absolute;
-  top: 16%;
-  left: 10%;
-}
-
-.community-title h1 span {
-  background: linear-gradient(90deg, #6affb0 0%, #00ddff 52.43%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-.community-items {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
-}
-.community-items .community-item {
-  cursor: pointer;
-  opacity: 0;
-  transition: 1s;
-  transform: scale(0.5);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.community-content {
-  overflow-y: auto;
-  height: 250px;
-  position: absolute;
-  width: 79%;
-  top: 35px;
-  left: 19px;
-  /* overflow: hidden; */
-}
-.community-content h3 {
-  font-size: 25px;
-  font-weight: 900;
-  font-family: var(--primary-font);
-  color: #fff;
-  margin-bottom: 11px;
-}
-.community-content p {
-  font-size: 16px;
-  color: #fff;
-  line-height: 25px;
-}
-.community-items .community-item .community-item-img .com-2 {
-  display: none;
-}
-.community-items .community-item:hover .community-item-img .com-2 {
-  display: block;
-}
-.community-items .community-item:hover .community-item-img .com-1 {
-  display: none;
-}
-
-.community-item-img img {
-  width: 100%;
-}
-
-/* {=================== Community end =========================} */
-
 /* ===================== Order Compelete Start ============ */
 .order-wrapper {
   width: 100%;

@@ -37,7 +37,15 @@ function Header() {
               Home{" "}
             </a>
           </HashLink>
-
+          <HashLink to="/#about">
+            <a
+              onClick={_toggleSidebar}
+              href="#remote"
+              className="nav-link mobile-link"
+            >
+             About
+            </a>
+          </HashLink>
           <HashLink to="/#course">
             <a
               onClick={_toggleSidebar}
@@ -53,42 +61,10 @@ function Header() {
               href="#virtual"
               className="nav-link mobile-link"
             >
-           Customer
+          Testimonial
             </a>
           </HashLink>
-          <HashLink to="/#about">
-            <a
-              onClick={_toggleSidebar}
-              href="#remote"
-              className="nav-link mobile-link"
-            >
-             About
-            </a>
-          </HashLink>
-          <HashLink to="/#community">
-            <a
-              onClick={_toggleSidebar}
-              href="#cummunity"
-              className="nav-link mobile-link"
-            >
-           Community
-            </a>
-          </HashLink>
-          {/* <div className="header-link-mobile">
-            <div className="social-mob">
-            <a href="https://pentonium.medium.com/" target={"_blank"}>
-     
-     <img src="./images/medium.png" alt="" />
-   </a>
-   <a href="https://twitter.com/pentonium_ptm" target={"_blank"}>
-
-     <img src="./images/twitter-logo.png" alt="" />
-   </a>
-   <a href="" target={"_blank"}>
-     <img src="./images/discord-logo.png" alt="" />
-   </a>
-            </div>
-          </div> */}
+  
              <div className="nav-right-btn-moblie">
           <Link to="/">
           <img src="./images/join-now-btn-bg.png" alt="" />
@@ -100,23 +76,67 @@ function Header() {
         </nav>
       </header>
 
-      <header>
-        <div className="nav-left">
+      <header >
+ <nav>
+ <div className="nav-left-logo">
           <Link to="/">
             {" "}
-            <div className="nav-logo">
+            <div className="nav-logos">
               <img src="./images/logo.png" alt="" />
             </div>{" "}
           </Link>
         </div>
-        <div className="nav-right-btn">
-          <Link to="/">
-          <img src="./images/join-now-btn-bg.png" alt="" />
-              <div className="join-btn-text">
-              <span>Join Now</span>
-              </div>
-          </Link>
-        </div>
+ <div className="nav-right-site">
+ <div className="nav-item">
+          <HashLink to="/">
+            <a
+              onClick={_toggleSidebar}
+              href="/"
+              className="active-nav nav-link mobile-link"
+            >
+              Home{" "}
+            </a>
+          </HashLink>
+          <HashLink to="/#about">
+            <a
+              onClick={_toggleSidebar}
+              href="#remote"
+              className="nav-link mobile-link"
+            >
+             About
+            </a>
+          </HashLink>
+          <HashLink to="/#course">
+            <a
+              onClick={_toggleSidebar}
+              href=""
+              className="nav-link mobile-link"
+            >
+             Course
+            </a>
+          </HashLink>
+          <HashLink to="/#customer">
+            <a
+              onClick={_toggleSidebar}
+              href="#virtual"
+              className="nav-link mobile-link"
+            >
+          Testimonial
+            </a>
+          </HashLink>
+          </div>
+          <div className="nav-right-btn">
+         
+         <Link to="/">
+         <img src="./images/join-now-btn-bg.png" alt="" />
+             <div className="join-btn-text">
+             <span>Join Now</span>
+             </div>
+         </Link>
+       </div>
+ </div>
+ </nav>
+  
       </header>
     </>
   );

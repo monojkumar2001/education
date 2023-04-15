@@ -6,32 +6,53 @@ function Footer() {
 
         <>
            {/* =========== Footer start ======================= */}
-            {/* <section className='footer'>
-                <div className="footer-bg">
-                    <img src="./images/footer-bg.png" alt="" />
+             <section className='footer'>
+                 <div className="footer-warrper">
+              <div className="footer-con">
+                <div className="socials">
+                  <div className="social-list">
+                    <a href="" target="_blank">
+                      <div className="social-content">
+                        <img src="./images/twitter.svg" alt="" />
+                        <p>Twitter</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="social-list">
+                    <a href="" target="_blank">
+                      <div className="social-content">
+                      <img src="./images/medium.svg" alt="" />
+                        <p>Discord</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="social-list">
+                    <a href="" target="_blank">
+                      <div className="social-content">
+                        <img src="./images/telegram.svg" alt="" />
+                        <p>Telegram</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div className="social-list">
+                    <a href="" target="_blank">
+                      <div className="social-content">
+                        <img src="./images/medium.svg" alt="" />
+                        <p>Medium</p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
-                <div className='footer-con'>
-                    <div className='socials'>
-                        <a href='' target='_blank'>
-                            <img src="./images/discord.png" alt="discord" />
-                        </a>
-                        <a href='' target='_blank'>
-                            <img src="./images/twitter.png" alt="twitter" />
-                        </a>
-                        <a href='' target='_blank'>
-                            <img src="./images/opensea.png" alt="instagram" />
-                        </a>
-                    </div>
-                    <div className='copyright'>
-                        <p>© 2022 - ALTLANTEANS | All Rights </p>
-                    </div>
-                    <div className='nft-constructer'>
-                        <p>
-                            <a href='https://www.nftconstructer.com/' target='_blank'><img src="./images/nft-constructor.png" alt="NFT CONSTRUCTER" />NFT CONSTRUCTER</a>
-                        </p>
-                    </div>
-                </div>               
-            </section> */}
+                <div className="copy-right-text">
+                  <p>
+                    © 2023 nft constructer All Rights Reserved. All names,
+                    logos, images,and brands are property of their respective
+                    owners. Non-Affiliation and Disclaimer
+                  </p>
+                </div>
+              </div>
+            </div>     
+            </section> 
            {/* =========== Footer  ======================= */}
         </>
 

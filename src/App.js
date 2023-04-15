@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CourseDetais from "./components/Course-details";
 import Order from "./components/Order";
+import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -28,6 +29,7 @@ function App() {
             <Order/>
           </Route>
         </Switch>
+        <Footer/>
       </Router>
  
     </div>

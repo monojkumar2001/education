@@ -15,7 +15,9 @@ header{
     z-index: 1000;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    margin: auto;
+    align-items: center;
 }
 header nav{
     width: 80%;
@@ -30,12 +32,16 @@ header nav{
     margin-top: 12px;
 }
 
-.nav-right-btn {
-    position: absolute;
-    top: 46px;
-    right: 14%;
+.nav-right-site{
+    display: flex;
+    align-items: center;
+    gap: 70px;
 }
-
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .nav-right-btn a {
     position: relative;
     display: flex;
@@ -61,10 +67,10 @@ nav .nav-right a{
     margin-left: 20px;
 }
 
-nav a a{
+.nav-item a a {
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 100%;
     transition: 0.3s;
     font-family: var(--primary-font-family);
