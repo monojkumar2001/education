@@ -125,7 +125,9 @@ function Header() {
             </a>
           </HashLink>
           </div>
-          <div className="nav-right-btn">
+
+ </div>
+ <div className="nav-right-btn">
          
          <Link to="/">
          <img src="./images/join-now-btn-bg.png" alt="" />
@@ -134,7 +136,6 @@ function Header() {
              </div>
          </Link>
        </div>
- </div>
  </nav>
   
       </header>

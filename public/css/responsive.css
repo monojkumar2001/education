@@ -80,4 +80,8 @@
 .course-item .course-content {
   padding: 0 20px;
 }
+.about-wrapper p {
+  margin-top: 30px;
+  padding: 20px;
+}
 }
