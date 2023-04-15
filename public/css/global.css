@@ -278,11 +278,11 @@ table.table {
 
 /* ======= Style ============ */
 .section-title{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 900;
     font-family: var(--primary-font);
     color: var(--white-color);
-    line-height: 74px;
+    line-height: 90px;
 }
 .section-title span{
 background: linear-gradient(90deg, #1CD0EB 38.07%, #366BDA 67.4%);

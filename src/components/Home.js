@@ -8,6 +8,8 @@ function Home() {
         <section
           className="intro"
           id="hero"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div className="container">
             <div className="hero-warrper">
@@ -47,7 +49,7 @@ function Home() {
         </section>
         
         {/* =============== Intro Section End ===================== */}
-        
+
                 {/* =============  About Start ================= */}
         <div
           className="about cpy-8"
@@ -58,10 +60,13 @@ function Home() {
             <div className="about-wrapper">
               <h1
                 className="section-title"
+                data-aos="fade-up"
+              data-aos-duration="1000"
               >
                 ABOUT KRYPTONERDS
               </h1>
-              <p>
+              <p data-aos="fade-up"
+              data-aos-duration="1000">
                 Welcome to Kryptonerds, your one stop solution for all things
                 NFT. We are a dedicated NFT education platform that aims to
                 teach people how to buy, sell, mint, trade and create their own
@@ -105,16 +110,18 @@ function Home() {
           <div className="container">
             <div className="courses-wrapper">
               <div
-                className="course-title"
-              
+                className="course-title "
+                data-aos="fade-up"
+                data-aos-duration="1000"
               >
-                <h1 className="section-title">COURSES</h1>
+                <h1 className="section-title" >COURSES</h1>
                 <p>
                   From buying, selling, and trading to creating and minting your
                   own collections, we offer
                 </p>
               </div>
-              <div className="courses-con">
+              <div className="courses-con" data-aos="fade-up"
+              data-aos-duration="1000">
                 <div
                   className="course-item"
                 
@@ -178,6 +185,8 @@ function Home() {
             <div className="customer-wrapper">
               <div
                 className="customer-title"
+                data-aos="fade-up"
+                data-aos-duration="1000"
               >
                 <h1 className="section-title">
                   CHECK OUT OUR HAPPY CUSTOMERS
@@ -188,7 +197,8 @@ function Home() {
                 </p>
               </div>
 
-              <div className="customer-items">
+              <div className="customer-items" data-aos="fade-up"
+              data-aos-duration="1000">
                 <div
                   className="customer-item"
                 >

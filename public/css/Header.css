@@ -35,12 +35,12 @@ header nav{
 .nav-right-site{
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 0 150px;
 }
 .nav-item{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 0 60px;
 }
 .nav-right-btn a {
     position: relative;
@@ -69,11 +69,11 @@ nav .nav-right a{
 
 .nav-item a a {
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 100%;
     transition: 0.3s;
-    font-family: var(--primary-font-family);
+    font-family: var( --primary-font);
 }
 
 nav a a:hover {
