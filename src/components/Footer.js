@@ -11,7 +11,7 @@ function Footer() {
               <div className="footer-con">
                 <div className="socials">
                   <div className="social-list">
-                    <a href="" target="_blank">
+                    <a href="https://linkedin.com/" >
                       <div className="social-content">
                         <img src="./images/twitter.svg" alt="" />
                         <p>Twitter</p>
@@ -19,15 +19,15 @@ function Footer() {
                     </a>
                   </div>
                   <div className="social-list">
-                    <a href="" target="_blank">
+                    <a href="https://linkedin.com/" >
                       <div className="social-content">
-                      <img src="./images/medium.svg" alt="" />
+                      <img src="./images/discord.svg" alt="" />
                         <p>Discord</p>
                       </div>
                     </a>
                   </div>
                   <div className="social-list">
-                    <a href="" target="_blank">
+                    <a href="https://linkedin.com/" >
                       <div className="social-content">
                         <img src="./images/telegram.svg" alt="" />
                         <p>Telegram</p>
@@ -35,7 +35,7 @@ function Footer() {
                     </a>
                   </div>
                   <div className="social-list">
-                    <a href="" target="_blank">
+                    <a href="https://linkedin.com/">
                       <div className="social-content">
                         <img src="./images/medium.svg" alt="" />
                         <p>Medium</p>

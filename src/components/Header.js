@@ -28,41 +28,17 @@ function Header() {
         </button>
 
         <nav id="mobile-nav" className={`${menuActive ? "hidden" : ""} `}>
-          <HashLink to="/">
-            <a
-              onClick={_toggleSidebar}
-              href="/"
-              className="active-nav nav-link mobile-link"
-            >
+          <HashLink to="/"  onClick={_toggleSidebar}>
               Home{" "}
-            </a>
           </HashLink>
-          <HashLink to="/#about">
-            <a
-              onClick={_toggleSidebar}
-              href="#remote"
-              className="nav-link mobile-link"
-            >
+          <HashLink to="/#about" onClick={_toggleSidebar}>
              About
-            </a>
           </HashLink>
-          <HashLink to="/#course">
-            <a
-              onClick={_toggleSidebar}
-              href=""
-              className="nav-link mobile-link"
-            >
+          <HashLink to="/#course" onClick={_toggleSidebar}>
              Course
-            </a>
           </HashLink>
-          <HashLink to="/#customer">
-            <a
-              onClick={_toggleSidebar}
-              href="#virtual"
-              className="nav-link mobile-link"
-            >
+          <HashLink to="/#customer" onClick={_toggleSidebar}>
           Testimonial
-            </a>
           </HashLink>
   
              <div className="nav-right-btn-moblie">
@@ -100,7 +76,7 @@ function Header() {
           <HashLink to="/#about">
             <a
               onClick={_toggleSidebar}
-              href="#remote"
+              href="#about"
               className="nav-link mobile-link"
             >
              About
@@ -109,7 +85,7 @@ function Header() {
           <HashLink to="/#course">
             <a
               onClick={_toggleSidebar}
-              href=""
+              href="#course"
               className="nav-link mobile-link"
             >
              Course
@@ -118,7 +94,7 @@ function Header() {
           <HashLink to="/#customer">
             <a
               onClick={_toggleSidebar}
-              href="#virtual"
+              href="#customer"
               className="nav-link mobile-link"
             >
           Testimonial
