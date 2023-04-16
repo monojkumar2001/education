@@ -4,7 +4,7 @@ import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { WalletConnectButton, WalletDisconnectButton, WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import { WalletDisconnectButton, WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
 function Header() {
   const [menuActive, setMenuActive] = useState(false);
@@ -54,7 +54,9 @@ function Header() {
               </div>
             </Link>
           </div>
+          {wallet.connected ? <WalletDisconnectButton /> : <WalletMultiButton />}
         </nav>
+
       </header>
 
       <header >
@@ -117,8 +119,8 @@ function Header() {
               </div>
             </Link>
           </div>
+          {wallet.connected ? <WalletDisconnectButton /> : <WalletMultiButton />}
         </nav>
-        {wallet.connected ? <WalletDisconnectButton /> : <WalletMultiButton />}
       </header>
     </>
   );
