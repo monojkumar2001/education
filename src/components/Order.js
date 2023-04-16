@@ -24,22 +24,22 @@ function Order() {
                 <h3>Follow Us</h3>
                 <div className="social-links">
                     <div className="social-link">
-                        <a href="">
+                        <a href="https://linkedin.com/">
                             <img src="./images/discord-img.svg" alt="" />
                         </a>
                     </div>
                     <div className="social-link">
-                        <a href="">
+                        <a href="https://linkedin.com/">
                             <img src="./images/instragram.svg" alt="" />
                         </a>
                     </div>
                     <div className="social-link">
-                        <a href="">
+                        <a href="https://linkedin.com/">
                             <img src="./images/opensea.svg" alt="" />
                         </a>
                     </div>
                     <div className="social-link">
-                        <a href="">
+                        <a href="https://linkedin.com/">
                             <img src="./images/linkedin.svg" alt="" />
                         </a>
                     </div>

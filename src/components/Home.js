@@ -27,7 +27,7 @@ function Home() {
                   discover the world of possibilities! 
                 </p>
                 <div className="join-btn">
-                  <a href="">
+                  <a href="#join-btn">
                     <img src="./images/join-now-btn-bg.png" alt="" />
                     <div className="join-btn-text">
                       <span>Join Now</span>
