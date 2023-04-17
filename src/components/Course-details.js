@@ -242,13 +242,21 @@ function CourseDetails() {
             >
               <form action="">
                 <div className="course-details-title">
-                  <h1>ENTER YOUR EMAIL</h1>
+                  <h1>Course Price <span>1 </span>sol</h1>
                 </div>
                 <div
                   className="course-input-email"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
+             <div className="course-input-items">
+             <div className="course-input-item">
+                    <input
+                      type="text"
+                      placeholder="Enter Your Name"
+                      required
+                    />
+                  </div>
                   <div className="course-input-item">
                     <input
                       type="text"
@@ -256,6 +264,7 @@ function CourseDetails() {
                       required
                     />
                   </div>
+             </div>
                   <Link to="/order">
                     <button className="course-buy-now-btn" type="submit">
                       Buy Now

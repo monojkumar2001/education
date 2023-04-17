@@ -158,6 +158,7 @@ right: 0;
 
 .course-item .course-content {
   padding: 0 50px;
+  text-align: center;
 }
 .course-item .course-content p {
   margin-bottom: 15px;
