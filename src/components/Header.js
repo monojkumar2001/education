@@ -1,15 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {useState } from "react";
+import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { WalletDisconnectButton, WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import { useWallet } from "@solana/wallet-adapter-react";
 function Header() {
   const [menuActive, setMenuActive] = useState(false);
   const _toggleSidebar = () => {
     setMenuActive(!menuActive);
   };
   AOS.init();
+
+  const wallet = useWallet();
+
   return (
     <>
       <header className="header-mobile" id="home">
@@ -27,93 +32,95 @@ function Header() {
           />{" "}
         </button>
 
+
         <nav id="mobile-nav" className={`${menuActive ? "hidden" : ""} `}>
-          <HashLink to="/"  onClick={_toggleSidebar}>
-              Home{" "}
+          <HashLink to="/" onClick={_toggleSidebar}>
+            Home{" "}
           </HashLink>
           <HashLink to="/#about" onClick={_toggleSidebar}>
-             About
+            About
           </HashLink>
           <HashLink to="/#course" onClick={_toggleSidebar}>
-             Course
+            Course
           </HashLink>
           <HashLink to="/#customer" onClick={_toggleSidebar}>
-          Testimonial
+            Testimonial
           </HashLink>
-  
-             <div className="nav-right-btn-moblie">
-          <Link to="/">
-          <img src="./images/join-now-btn-bg.png" alt="" />
+          <div className="nav-right-btn-moblie">
+            <Link to="/">
+              <img src="./images/join-now-btn-bg.png" alt="" />
               <div className="join-btn-text">
-              <span>Join Now</span>
+                <span>Join Now</span>
               </div>
-          </Link>
-        </div>
+            </Link>
+          </div>
+          {wallet.connected ? <WalletDisconnectButton /> : <WalletMultiButton />}
         </nav>
+
       </header>
 
       <header >
- <nav>
- <div className="nav-left-logo">
-          <Link to="/">
-            {" "}
-            <div className="nav-logos">
-              <img src="./images/logo.png" alt="" />
-            </div>{" "}
-          </Link>
-        </div>
- <div className="nav-right-site">
- <div className="nav-item">
-          <HashLink to="/">
-            <a
-              onClick={_toggleSidebar}
-              href="/"
-              className="active-nav nav-link mobile-link"
-            >
-              Home{" "}
-            </a>
-          </HashLink>
-          <HashLink to="/#about">
-            <a
-              onClick={_toggleSidebar}
-              href="#about"
-              className="nav-link mobile-link"
-            >
-             About
-            </a>
-          </HashLink>
-          <HashLink to="/#course">
-            <a
-              onClick={_toggleSidebar}
-              href="#course"
-              className="nav-link mobile-link"
-            >
-             Course
-            </a>
-          </HashLink>
-          <HashLink to="/#customer">
-            <a
-              onClick={_toggleSidebar}
-              href="#customer"
-              className="nav-link mobile-link"
-            >
-          Testimonial
-            </a>
-          </HashLink>
+        <nav>
+          <div className="nav-left-logo">
+            <Link to="/">
+              {" "}
+              <div className="nav-logos">
+                <img src="./images/logo.png" alt="" />
+              </div>{" "}
+            </Link>
           </div>
+          <div className="nav-right-site">
+            <div className="nav-item">
+              <HashLink to="/">
+                <a
+                  onClick={_toggleSidebar}
+                  href="/"
+                  className="active-nav nav-link mobile-link"
+                >
+                  Home{" "}
+                </a>
+              </HashLink>
+              <HashLink to="/#about">
+                <a
+                  onClick={_toggleSidebar}
+                  href="#about"
+                  className="nav-link mobile-link"
+                >
+                  About
+                </a>
+              </HashLink>
+              <HashLink to="/#course">
+                <a
+                  onClick={_toggleSidebar}
+                  href="#course"
+                  className="nav-link mobile-link"
+                >
+                  Course
+                </a>
+              </HashLink>
+              <HashLink to="/#customer">
+                <a
+                  onClick={_toggleSidebar}
+                  href="#customer"
+                  className="nav-link mobile-link"
+                >
+                  Testimonial
+                </a>
+              </HashLink>
+            </div>
 
- </div>
- <div className="nav-right-btn">
-         
-         <Link to="/">
-         <img src="./images/join-now-btn-bg.png" alt="" />
-             <div className="join-btn-text">
-             <span>Join Now</span>
-             </div>
-         </Link>
-       </div>
- </nav>
-  
+          </div>
+          <div className="nav-right-btn">
+
+            <Link to="/">
+              <img src="./images/join-now-btn-bg.png" alt="" />
+              <div className="join-btn-text">
+                <span>Join Now</span>
+              </div>
+            </Link>
+          </div>
+          {wallet.connected ? <WalletDisconnectButton /> : <WalletMultiButton />}
+        </nav>
       </header>
     </>
   );

@@ -1,12 +1,12 @@
 import React from "react";
-import { useEffect} from "react";
+import { useEffect } from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import CourseDetais from "./components/Course-details";
+import CourseDetails from "./components/Course-details";
 import Order from "./components/Order";
 import Footer from "./components/Footer";
 function App() {
@@ -15,23 +15,23 @@ function App() {
   }, [])
   return (
     <div className="App" >
-    
+
       <Router>
         <Header />
         <Switch>
           <Route exact path="/">
-            <Home/>
+            <Home />
           </Route>
           <Route exact path="/course-details">
-            <CourseDetais/>
+            <CourseDetails />
           </Route>
           <Route exact path="/order">
-            <Order/>
+            <Order />
           </Route>
         </Switch>
-        <Footer/>
+        <Footer />
       </Router>
- 
+
     </div>
   );
 }
