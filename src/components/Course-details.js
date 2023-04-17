@@ -1,23 +1,6 @@
-import { useConnection, useWallet } from "@solana/wallet-adapter-react";
-import { LAMPORTS_PER_SOL, SystemProgram, Transaction } from "@solana/web3.js";
 import React from "react";
-import { DEST_SOL_ADDRESS } from "../config";
+import { Link } from "react-router-dom";
 function CourseDetails() {
-  const wallet = useWallet();
-  const { connection } = useConnection();
-
-  const buyCourse = async () => {
-    const amount = 1;
-    let tx = new Transaction().add(SystemProgram.transfer({
-      fromPubkey: wallet.publicKey,
-      lamports: amount * LAMPORTS_PER_SOL,
-      toPubkey: DEST_SOL_ADDRESS,
-    }));
-
-    let txid = await wallet.sendTransaction(tx, connection);
-    window.location = "/order"
-  }
-
   return (
     <>
       {/* ============ Course Details Start ============= */}
@@ -67,7 +50,7 @@ function CourseDetails() {
                       </div>
                       <p>
                         Get a step-by-step roadmap to successfully mint and sell
-                        your NFT project, from start to finish.
+                        your NFT project, from start to finish. 
                       </p>
                     </div>
                   </div>
@@ -82,7 +65,7 @@ function CourseDetails() {
                       </div>
                       <p>
                         Learn how to create unique and valuable NFTs that will
-                        stand out in the marketplace and attract buyers.
+                        stand out in the marketplace and attract buyers.  
                       </p>
                     </div>
                   </div>
@@ -98,7 +81,7 @@ function CourseDetails() {
                       <p>
                         Discover the latest trends and best practices in the NFT
                         space to help you make informed decisions and maximize
-                        your profits.
+                        your profits. 
                       </p>
                     </div>
                   </div>
@@ -114,7 +97,7 @@ function CourseDetails() {
                       <p>
                         Gain insights into the psychology of NFT buyers and
                         sellers, and learn how to position your project for
-                        success.
+                        success. 
                       </p>
                     </div>
                   </div>
@@ -146,7 +129,7 @@ function CourseDetails() {
                       <p>
                         Get access to expert tips and advice from successful NFT
                         creators and sellers, so you can learn from their
-                        experiences and avoid common pitfalls.
+                        experiences and avoid common pitfalls.  
                       </p>
                     </div>
                   </div>
@@ -162,7 +145,7 @@ function CourseDetails() {
                       <p>
                         Learn how to price your NFTs appropriately, based on
                         their unique characteristics and market demand, to
-                        ensure you get the best return on your investment.
+                        ensure you get the best return on your investment.  
                       </p>
                     </div>
                   </div>
@@ -178,7 +161,7 @@ function CourseDetails() {
                       <p>
                         Get a complete checklist of everything you need to do to
                         launch your NFT project successfully, including legal
-                        and technical considerations.
+                        and technical considerations. 
                       </p>
                     </div>
                   </div>
@@ -194,7 +177,7 @@ function CourseDetails() {
                       <p>
                         Find out how to leverage social media and other online
                         platforms to build a loyal fan base and increase your
-                        visibility in the NFT community.
+                        visibility in the NFT community. 
                       </p>
                     </div>
                   </div>
@@ -212,7 +195,7 @@ function CourseDetails() {
                         information and resources you need to turn your NFT
                         project into a successful venture that will generate
                         income and build your reputation in the exciting and
-                        rapidly growing world of NFTs.
+                        rapidly growing world of NFTs.  
                       </p>
                     </div>
                   </div>
@@ -259,13 +242,21 @@ function CourseDetails() {
             >
               <form action="">
                 <div className="course-details-title">
-                  <h1>ENTER YOUR EMAIL</h1>
+                  <h1>Course Price <span>1 </span>sol</h1>
                 </div>
                 <div
                   className="course-input-email"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
+             <div className="course-input-items">
+             <div className="course-input-item">
+                    <input
+                      type="text"
+                      placeholder="Enter Your Name"
+                      required
+                    />
+                  </div>
                   <div className="course-input-item">
                     <input
                       type="text"
@@ -273,6 +264,7 @@ function CourseDetails() {
                       required
                     />
                   </div>
+             </div>
                   <Link to="/order">
                     <button className="course-buy-now-btn" type="submit">
                       Buy Now
