@@ -122,7 +122,36 @@ nav a:hover {
 .nav-socials img:hover{
     transform: scale(1.1);
 }
-
+.wallet-adapter-button-trigger {
+    background: linear-gradient(180deg, #00FFFF 0%, #1FAFEA 100%) !important;
+}
+.wallet-adapter-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px !important;
+    font-weight: 600;
+    height: 60px !important;
+    line-height: 48px;
+    padding: 22px 24px !important;
+    border-radius: 4px;
+}
+@media only screen and (max-width:1600px){
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+}
+}
+@media only screen and (max-width:1500px){
+    header nav {
+        width: 90%;
+    }
+}
 @media only screen and (max-width:1350px){
     .nav-right {
         top: 37px;
@@ -203,6 +232,7 @@ nav a:hover {
 
     .header-mobile .hum-btn {
         position: absolute;
+        display: flex;
         right: 40px;
         top: 40px;
         z-index: 99999;
@@ -248,6 +278,7 @@ nav a:hover {
         position: fixed;
         align-items: center;
         right: 0px;
+        bottom: 0;
         gap: 40px;
         padding: 166px 24px 465px 24px;
         background: radial-gradient(50% 50% at 50% 50%, #0F0F44 0%, #0E163D 100%);

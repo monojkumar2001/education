@@ -20,7 +20,7 @@ function Order() {
                 <p>Learn how to create unique and valuable NFTs that will stand out in the marketplace and attract buyers. </p>
             </div>
 
-            {/* <div className="social-area">
+            <div className="social-area">
                 <h3>Follow Us</h3>
                 <div className="social-links">
                     <div className="social-link">
@@ -44,7 +44,7 @@ function Order() {
                         </a>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     </div>
    </div>
