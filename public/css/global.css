@@ -285,6 +285,7 @@ table.table {
     font-family: var(--primary-font);
     color: var(--white-color);
     line-height: 90px;
+    margin-bottom: 10px;
 }
 .section-title span{
 background: linear-gradient(90deg, #1CD0EB 38.07%, #366BDA 67.4%);
