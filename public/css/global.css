@@ -91,7 +91,7 @@ body {
     font-weight: 400;
     font-family: var(--body-font) !important;
     line-height: var(--p-font-height);
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 img {
   vertical-align: middle;
@@ -147,7 +147,9 @@ label {
 table.table {
   white-space: nowrap;
 }
-
+.App {
+  overflow-x: hidden;
+}
 /* ===================custom button============ */
 
 .custom-btn {

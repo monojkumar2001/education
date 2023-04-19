@@ -258,7 +258,7 @@ function CourseDetails() {
               data-aos-duration="1000"
             >
               <div className="course-details-title">
-                <h1>ENTER YOUR EMAIL</h1>
+                <h1>COURSE PRICE <span>1</span> Sol</h1>
               </div>
               <div
                 className="course-input-email"

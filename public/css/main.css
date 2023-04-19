@@ -265,6 +265,7 @@ right: 0;
 /* {================= Remote Job Start ====================} */
 .about {
   /* position: relative; */
+  overflow-x: hidden;
 }
 .about-wrapper {
   display: flex;

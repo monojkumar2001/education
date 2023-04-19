@@ -35,7 +35,10 @@ function Header() {
 
         <nav id="mobile-nav" className={`${menuActive ? "hidden" : ""} `}>
           <HashLink to="/" onClick={_toggleSidebar}>
-            Home{" "}
+            Home
+          </HashLink>
+          <HashLink to="/#class" onClick={_toggleSidebar}>
+            Master Class
           </HashLink>
           <HashLink to="/#about" onClick={_toggleSidebar}>
             About
@@ -78,6 +81,15 @@ function Header() {
                   className="active-nav nav-link mobile-link"
                 >
                   Home{" "}
+                </a>
+              </HashLink>
+              <HashLink to="/#class">
+                <a
+                  onClick={_toggleSidebar}
+                  href="#class"
+                  className="nav-link mobile-link"
+                >
+                  Master Class
                 </a>
               </HashLink>
               <HashLink to="/#about">

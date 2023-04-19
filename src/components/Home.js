@@ -9,7 +9,7 @@ function Home() {
           className="intro"
           id="hero"
           data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos-duration="2000"
         >
           <div className="container">
             <div className="hero-warrper">
@@ -49,7 +49,86 @@ function Home() {
         </section>
         
         {/* =============== Intro Section End ===================== */}
-
+        {/* ================  Course Start ================== */}
+        <section
+          className="courses cpt-6"
+          id="class"
+     
+        >
+          <div className="container">
+            <div className="courses-wrapper">
+              <div
+                className="course-title "
+                data-aos="fade-down"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-sine"
+              >
+                <h1 className="section-title">MASTER CLASS</h1>
+                <p>
+                  From buying, selling, and trading to creating and minting your
+                  own collections, we offer
+                </p>
+              </div>
+              <div className="courses-con">
+                <div
+                  className="course-item"
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-sine"
+                >
+                  <div className="course-item-img">
+                    <img src="./images/course-bg-img-1.svg" alt="" />
+                  </div>
+                  <div className="course-content">
+                    <h4>The Road To Web3</h4>
+                    <p>lorem and trading to creating and minting
+                    your own collections, we offer</p>
+                    <Link to="/course-details">
+                      <button className="custom-btn">Get Started</button>
+                    </Link>
+                  </div>
+                </div>
+                <div
+                  className="course-item "
+                  data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-sine"
+                >
+                  <div className="course-item-img">
+                    <img src="./images/course-bg-img-2.svg" alt="" />
+                  </div>
+                  <div className="course-content">
+                    <h4>The Road To Web3</h4>
+                    <p>lorem and trading to creating and minting
+                    your own collections, we offer</p>
+                    <Link to="/course-details">
+                      <button className="custom-btn">Get Started</button>
+                    </Link>
+                  </div>
+                </div>
+                <div
+                  className="course-item"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-sine"
+                >
+                  <div className="course-item-img">
+                    <img src="./images/course-bg-img-3.svg" alt="" />
+                  </div>
+                  <div className="course-content">
+                    <h4>The Road To Web3</h4>
+                    <p>lorem and trading to creating and minting
+                    your own collections, we offer</p>
+                    <Link to="/course-details">
+                      <button className="custom-btn">Get Started</button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* ================  Course End ================== */}
                 {/* =============  About Start ================= */}
         <div
           className="about cpy-8"
@@ -60,13 +139,13 @@ function Home() {
             <div className="about-wrapper">
               <h1
                 className="section-title"
-                data-aos="fade-up"
-              data-aos-duration="1000"
+                data-aos="fade-right"
+              data-aos-duration="2000"
               >
                 ABOUT KRYPTONERDS
               </h1>
-              <p data-aos="fade-up"
-              data-aos-duration="1000">
+              <p data-aos="fade-left"
+              data-aos-duration="2000">
                 Welcome to Kryptonerds, your one stop solution for all things
                 NFT. We are a dedicated NFT education platform that aims to
                 teach people how to buy, sell, mint, trade and create their own
@@ -111,8 +190,8 @@ function Home() {
             <div className="courses-wrapper">
               <div
                 className="course-title "
-                data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos="fade-down"
+                data-aos-duration="2000"
               >
                 <h1 className="section-title" >COURSES</h1>
                 <p>
@@ -120,11 +199,11 @@ function Home() {
                   own collections, we offer
                 </p>
               </div>
-              <div className="courses-con" data-aos="fade-up"
-              data-aos-duration="1000">
+              <div className="courses-con" >
                 <div
                   className="course-item"
-                
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
                 >
                   <div className="course-item-img">
                     <img src="./images/course-bg-img-1.svg" alt="" />
@@ -140,7 +219,8 @@ function Home() {
                 </div>
                 <div
                   className="course-item "
-                  
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
                 >
                   <div className="course-item-img">
                     <img src="./images/course-bg-img-2.svg" alt="" />
@@ -156,7 +236,8 @@ function Home() {
                 </div>
                 <div
                   className="course-item"
-                
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
                 >
                   <div className="course-item-img">
                     <img src="./images/course-bg-img-3.svg" alt="" />
@@ -185,7 +266,7 @@ function Home() {
             <div className="customer-wrapper">
               <div
                 className="customer-title"
-                data-aos="fade-up"
+                data-aos="fade-down"
                 data-aos-duration="1000"
               >
                 <h1 className="section-title">
@@ -197,10 +278,11 @@ function Home() {
                 </p>
               </div>
 
-              <div className="customer-items" data-aos="fade-up"
-              data-aos-duration="1000">
+              <div className="customer-items" >
                 <div
                   className="customer-item"
+                  data-aos="fade-right"
+              data-aos-duration="2000"
                 >
                   <div className="customer-profile">
                     <img src="./images/customer-1.jpg" alt="" />
@@ -283,6 +365,8 @@ function Home() {
                 </div>
                 <div
                   className="customer-item"
+                  data-aos="fade-up"
+              data-aos-duration="2000"
                 >
                   <div className="customer-profile">
                     <img src="./images/customer-2.jpg" alt="" />
@@ -365,6 +449,8 @@ function Home() {
                 </div>
                 <div
                   className="customer-item "
+                  data-aos="fade-left"
+              data-aos-duration="1000"
                 >
                   <div className="customer-profile">
                     <img src="./images/customer-3.jpg" alt="" />
