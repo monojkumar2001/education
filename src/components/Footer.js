@@ -13,7 +13,7 @@ function Footer() {
                   <div className="social-list">
                     <a href="https://linkedin.com/" >
                       <div className="social-content">
-                        <img src="./images/twitter.svg" alt="" />
+                        <img src="/images/twitter.svg" alt="" />
                         <p>Twitter</p>
                       </div>
                     </a>
@@ -21,7 +21,7 @@ function Footer() {
                   <div className="social-list">
                     <a href="https://linkedin.com/" >
                       <div className="social-content">
-                      <img src="./images/discord.svg" alt="" />
+                      <img src="/images/discord.svg" alt="" />
                         <p>Discord</p>
                       </div>
                     </a>
@@ -29,7 +29,7 @@ function Footer() {
                   <div className="social-list">
                     <a href="https://linkedin.com/" >
                       <div className="social-content">
-                        <img src="./images/telegram.svg" alt="" />
+                        <img src="/images/telegram.svg" alt="" />
                         <p>Telegram</p>
                       </div>
                     </a>
@@ -37,7 +37,7 @@ function Footer() {
                   <div className="social-list">
                     <a href="https://linkedin.com/">
                       <div className="social-content">
-                        <img src="./images/medium.svg" alt="" />
+                        <img src="/images/medium.svg" alt="" />
                         <p>Medium</p>
                       </div>
                     </a>

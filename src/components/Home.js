@@ -83,7 +83,7 @@ function Home() {
                     <h4>The Road To Web3</h4>
                     <p>lorem and trading to creating and minting
                     your own collections, we offer</p>
-                    <Link to="/course-details">
+                    <Link to="/">
                       <button className="custom-btn">Get Started</button>
                     </Link>
                   </div>
@@ -101,7 +101,7 @@ function Home() {
                     <h4>The Road To Web3</h4>
                     <p>lorem and trading to creating and minting
                     your own collections, we offer</p>
-                    <Link to="/course-details">
+                    <Link to="/">
                       <button className="custom-btn">Get Started</button>
                     </Link>
                   </div>
@@ -119,7 +119,7 @@ function Home() {
                     <h4>The Road To Web3</h4>
                     <p>lorem and trading to creating and minting
                     your own collections, we offer</p>
-                    <Link to="/course-details">
+                    <Link to="/">
                       <button className="custom-btn">Get Started</button>
                     </Link>
                   </div>
@@ -229,7 +229,7 @@ function Home() {
                     <h4>The Road To Web3</h4>
                     <p>lorem and trading to creating and minting
                     your own collections, we offer</p>
-                    <Link to="/course-details">
+                    <Link to="/course-details/2">
                       <button className="custom-btn">Get Started</button>
                     </Link>
                   </div>
@@ -246,7 +246,7 @@ function Home() {
                     <h4>The Road To Web3</h4>
                     <p>lorem and trading to creating and minting
                     your own collections, we offer</p>
-                    <Link to="/course-details">
+                    <Link to="/course-details/3">
                       <button className="custom-btn">Get Started</button>
                     </Link>
                   </div>

@@ -40,7 +40,7 @@ function CourseDetails() {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <img src="./images/course-details-img.svg" alt="" />
+              <img src="/images/course-details-img.svg" alt="" />
             </div>
             <div className="course-learn-content">
               <div
@@ -63,7 +63,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         Get a step-by-step roadmap to successfully mint and sell
@@ -93,7 +93,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         Discover the latest trends and best practices in the NFT
@@ -109,7 +109,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         Gain insights into the psychology of NFT buyers and
@@ -125,7 +125,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         Find out how to market your NFT project effectively,
@@ -141,7 +141,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         Get access to expert tips and advice from successful NFT
@@ -157,7 +157,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         Learn how to price your NFTs appropriately, based on
@@ -173,7 +173,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         Get a complete checklist of everything you need to do to
@@ -189,7 +189,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         Find out how to leverage social media and other online
@@ -205,7 +205,7 @@ function CourseDetails() {
                       data-aos-duration="1000"
                     >
                       <div className="course-check-icon">
-                        <img src="./images/check-icon.svg" alt="" />
+                        <img src="/images/check-icon.svg" alt="" />
                       </div>
                       <p>
                         With this ebook or eproduct box, you'll have all the

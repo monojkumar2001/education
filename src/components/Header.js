@@ -21,7 +21,7 @@ function Header() {
         <div className="nav-left">
           <Link to="/">
             <div className="nav-logo">
-              <img src="./images/logo.png" alt="" />
+              <img src="/images/logo.png" alt="" />
             </div>
           </Link>
         </div>
@@ -51,7 +51,7 @@ function Header() {
           </HashLink>
           <div className="nav-right-btn-moblie">
             <Link to="/">
-              <img src="./images/join-now-btn-bg.png" alt="" />
+              <img src="/images/join-now-btn-bg.png" alt="" />
               <div className="join-btn-text">
                 <span>Join Now</span>
               </div>
@@ -68,7 +68,7 @@ function Header() {
             <Link to="/">
               {" "}
               <div className="nav-logos">
-                <img src="./images/logo.png" alt="" />
+                <img src="/images/logo.png" alt="" />
               </div>{" "}
             </Link>
           </div>
@@ -125,7 +125,7 @@ function Header() {
           <div className="nav-right-btn">
 
             <Link to="/">
-              <img src="./images/join-now-btn-bg.png" alt="" />
+              <img src="/images/join-now-btn-bg.png" alt="" />
               <div className="join-btn-text">
                 <span>Join Now</span>
               </div>
