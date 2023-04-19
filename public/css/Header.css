@@ -123,6 +123,7 @@ nav a:hover {
     transform: scale(1.1);
 }
 .wallet-adapter-button-trigger {
+    color: #000 !important;
     background: linear-gradient(180deg, #00FFFF 0%, #1FAFEA 100%) !important;
 }
 .wallet-adapter-button {
