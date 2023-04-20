@@ -49,14 +49,14 @@ function Header() {
           <HashLink to="/#customer" onClick={_toggleSidebar}>
             Testimonial
           </HashLink>
-          <div className="nav-right-btn-moblie">
+          {/* <div className="nav-right-btn-moblie">
             <Link to="/">
               <img src="/images/join-now-btn-bg.png" alt="" />
               <div className="join-btn-text">
                 <span>Join Now</span>
               </div>
             </Link>
-          </div>
+          </div> */}
           {wallet.connected ? <WalletDisconnectButton /> : <WalletMultiButton />}
         </nav>
 
@@ -122,7 +122,7 @@ function Header() {
             </div>
 
           </div>
-          <div className="nav-right-btn">
+          {/* <div className="nav-right-btn">
 
             <Link to="/">
               <img src="/images/join-now-btn-bg.png" alt="" />
@@ -130,7 +130,7 @@ function Header() {
                 <span>Join Now</span>
               </div>
             </Link>
-          </div>
+          </div> */}
           {wallet.connected ? <WalletDisconnectButton /> : <WalletMultiButton />}
         </nav>
       </header>
