@@ -104,8 +104,8 @@ nav a:hover {
     left: 4%;
     z-index: 1;
   }
-.nav-logo img{
-    width: 180px;
+.nav-logos img{
+    width: 100px;
 }
 .nav-socials{
     position: absolute;
@@ -191,7 +191,7 @@ nav a:hover {
         position: absolute;
     }
     .nav-logo img {
-        width: 120px;
+        width: 80px;
     }
     .header-mobile .temporary-menu {
         left:300px

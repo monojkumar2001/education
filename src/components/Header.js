@@ -21,7 +21,7 @@ function Header() {
         <div className="nav-left">
           <Link to="/">
             <div className="nav-logo">
-              <img src="/images/logo.png" alt="" />
+              <img src="/images/logo.svg" alt="" />
             </div>
           </Link>
         </div>
@@ -68,7 +68,7 @@ function Header() {
             <Link to="/">
               {" "}
               <div className="nav-logos">
-                <img src="/images/logo.png" alt="" />
+                <img src="/images/logo.svg" alt="" />
               </div>{" "}
             </Link>
           </div>
